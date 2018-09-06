@@ -32,10 +32,6 @@ namespace MyFarm
             Goat(animal);
             Pig(animal);
 
-
-
-          
-
         }
 
         private static void Pig(Animal animal)
