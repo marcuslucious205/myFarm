@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace MyFarm
 {
-  
+
 
     class Program
     {
-       
+
         public static void Main(string[] args)
         {
             string c = "Chicken";
@@ -24,37 +24,31 @@ namespace MyFarm
             Animal pig = new Animal();
 
             //Animal animal = new Animal();
-
+            chicken.name = "FogHorn";
+            chicken.speak = "Howdy";
 
 
             Console.WriteLine("Welcome to myFarm");
-            Console.WriteLine("On myfarm we have " +c+ " ," +a+ " ," +g+ " and " + p);
+            Console.WriteLine("On myfarm we have " + c + " ," + a + " ," + g + " and " + p);
 
+
+            Console.WriteLine("A chicken on my farm named " + chicken.name + " always says " + chicken.speak + " when I see him ");
             //Console.WriteLine("We have these animals on myFarm");
             //Animal.name = "Chicken, Cow, Goat, Pig";
-            chicken.name = "FogHorn";
-            chicken.speak = "Howdy";
+
             //Cow(animal);
             //Goat(animal);
             //Pig(animal);
 
 
-       
-                Console.WriteLine("A chicken on my farm named " + chicken.name + " always says " + chicken.speak + " when I see him ");
-            
-            
 
 
-            
-        
-
-                
-
-        
-            
 
 
-      
+
+
+
+
 
 
 
