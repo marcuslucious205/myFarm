@@ -38,30 +38,23 @@ namespace MyFarm
             //Goat(animal);
             //Pig(animal);
 
-            Console.WriteLine("A chicken on my farm named " + chicken.name + " always says " + chicken.speak + " when I see him ");
+
+       
+                Console.WriteLine("A chicken on my farm named " + chicken.name + " always says " + chicken.speak + " when I see him ");
+            
+            
 
 
-        }
-
-      private static void Pig(Animal animal)
-        {
-            throw new NotImplementedException();
-        }
-
-        private static void Goat(Animal Billy)
-        {
-            throw new NotImplementedException();
-        }
-
-        private static void Cow(Animal Clarabelle)
-        {
-            throw new NotImplementedException();
-        }
+            
         
-        public static void Chicken(Animal FogHorn)
-        {
-            throw new NotImplementedException();
-           //Chicken.name = chicken;
+
+                
+
+        
+            
+
+
+      
 
 
 

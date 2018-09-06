@@ -14,9 +14,6 @@ namespace MyFarm
 
         public string name;
         public string speak;
-      
-   
-      
-        
+              
     }
 }
