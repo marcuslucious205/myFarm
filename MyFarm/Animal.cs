@@ -8,17 +8,15 @@ namespace MyFarm
 {
     class Animal
     {
-        
+
+        //member Variable Declaration
+        //Instance Variable Declaration
 
         public string name;
-
-        public Animal()
-        {
-           // string pig = "oink";
-            //string chicken;
-            //string cow;
-            string goat;
-
-        }
+        public string speak;
+      
+   
+      
+        
     }
 }
