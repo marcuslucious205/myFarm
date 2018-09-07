@@ -10,7 +10,7 @@ namespace MyFarm
 
     class Program
     {
-      
+
 
         public static void Main(string[] args)
         {
@@ -24,18 +24,22 @@ namespace MyFarm
             //Goat goat = new Goat();
             //Pig pig = new Pig();
 
- 
+
             Console.WriteLine("Welcome to myFarm");
             Console.WriteLine("On myfarm we have " + c + " ," + a + " ," + g + " and " + p);
 
+            //Part 2
 
             chicken.SetName("FogHorn");
-           
+            chicken.SetSpeak("Howdy");
 
-            Console.WriteLine("A chicken on myFarm named {0}", chicken.GetName());
-            Console.ReadKey();
-            //" always says " ( chicken.GetSpeak) " when I see him ");
-            
+
+            Console.WriteLine("A chicken on myFarm named {0} always says {1} when i see him. ", chicken.GetName(), chicken.GetSpeak());
+            Console.ReadLine();
+
+            //chicken.GetName
+            // chicken.GetSpeak();
+
 
 
 
