@@ -10,6 +10,8 @@ namespace MyFarm
 
     class Program
     {
+        //public string name;
+        // public string speak;
 
         public static void Main(string[] args)
         {
@@ -18,36 +20,23 @@ namespace MyFarm
             string g = "Goat";
             string p = "Pig";
 
-            Animal chicken = new Animal();
-            Animal cow = new Animal();
-            Animal goat = new Animal();
-            Animal pig = new Animal();
+            Chicken chicken = new Chicken();
+            //Cow cow = new Cow();
+            //Goat goat = new Goat();
+            //Pig pig = new Pig();
 
-            //Animal animal = new Animal();
-            chicken.name = "FogHorn";
-            chicken.speak = "Howdy";
-
-
+ 
             Console.WriteLine("Welcome to myFarm");
             Console.WriteLine("On myfarm we have " + c + " ," + a + " ," + g + " and " + p);
 
 
-            Console.WriteLine("A chicken on my farm named " + chicken.name + " always says " + chicken.speak + " when I see him ");
+            chicken.SetName("FogHorn");
+           
+
+            Console.WriteLine("A chicken on myFarm named {0}", chicken.GetName());
+            Console.ReadKey();
+            //" always says " ( chicken.GetSpeak) " when I see him ");
             //Console.WriteLine("We have these animals on myFarm");
-            //Animal.name = "Chicken, Cow, Goat, Pig";
-
-            //Cow(animal);
-            //Goat(animal);
-            //Pig(animal);
-
-
-
-
-
-
-
-
-
 
 
 
