@@ -12,7 +12,6 @@ namespace MyFarm
     {
         private string name;
         private string speak;
-        private string Howdy;
         //public string FogHorn;
         
 

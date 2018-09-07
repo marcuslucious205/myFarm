@@ -10,8 +10,7 @@ namespace MyFarm
 
     class Program
     {
-        //public string name;
-        // public string speak;
+      
 
         public static void Main(string[] args)
         {
@@ -36,7 +35,7 @@ namespace MyFarm
             Console.WriteLine("A chicken on myFarm named {0}", chicken.GetName());
             Console.ReadKey();
             //" always says " ( chicken.GetSpeak) " when I see him ");
-            //Console.WriteLine("We have these animals on myFarm");
+            
 
 
 
