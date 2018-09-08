@@ -6,20 +6,17 @@ using System.Threading.Tasks;
 
 namespace MyFarm
 {
-   
-
-    class Chicken
+    class Pig
     {
         private string name;
         private string speak;
-      
-        
 
-        public void SetName( string Name)
+        public void SetName(string Name)
         {
             this.name = Name;
+
         }
-  
+
         public string GetName()
         {
             return name;
@@ -34,6 +31,7 @@ namespace MyFarm
         {
             return this.speak;
         }
-     
+
+
     }
 }
