@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace MyFarm
 {
     class Program
@@ -24,6 +25,7 @@ namespace MyFarm
             //Part 1
             Console.WriteLine("Welcome to myFarm");
             Console.WriteLine("On myfarm we have " + c + " ," + a + " ," + g + " and " + p);
+            Console.Clear();
 
             //Part 2
             chicken.SetName("FogHorn");
@@ -31,6 +33,7 @@ namespace MyFarm
 
             Console.WriteLine("A chicken on myFarm named {0} always says {1} when i see him. ", chicken.GetName(), chicken.GetSpeak());
             Console.ReadLine();
+            Console.Clear();
 
             //Part 3
             pig.SetName("Charlotte");
@@ -40,12 +43,12 @@ namespace MyFarm
             goat.SetName("Billy");
             goat.SetSpeak("Cram");
 
-    
             string[] animals = new string[4] { "Chicken", "Cow", "Goat", "Pig" };
             string[] animals2 = new string[4] { "CLUCK", "MOO", "BAA", "OINK" };
 
             Console.WriteLine("These animals live on myfarm");
-            Console.WriteLine(String.Join("\n", animals));
+            Console.WriteLine(string.Join("\n", animals));
+            
 
             while (true)//Loop indefinitely
             {
@@ -68,38 +71,29 @@ namespace MyFarm
                     Console.WriteLine("{0} says {1}.", goat.GetName(), goat.GetSpeak());
                     break;
                 }
+            }
+            Console.Read();
+            Console.Clear();
+            
 
-                //Part IV
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
+            //Part IV
+            chicken.SetColor("white");
+            chicken.SetEat("corn");
+            pig.SetColor("pink");
+            pig.SetEat("slop");
+            goat.SetColor("purple");
+            goat.SetEat("trash");
+            cow.SetColor("brown");
+            cow.SetEat("grass"); 
 
 
+            Console.WriteLine("On my farm i have a {0} chicken named {1} that eats {3} and says {2} ", chicken.GetColor(), chicken.GetName(), chicken.GetSpeak(), chicken.GetEat());
+            Console.WriteLine("On my farm i have a {0} pig named {1} that eats {3} and says {2} ", pig.GetColor(), pig.GetName(), pig.GetSpeak(), pig.GetEat());
+            Console.WriteLine("On my farm i have a {0} goat named {1} that eats {3} and says {2} ", goat.GetColor(), goat.GetName(), goat.GetSpeak(), goat.GetEat());
+            Console.WriteLine("On my farm i have a {0} cow named {1} that eats {3} and says {2} ", cow.GetColor(), cow.GetName(), cow.GetSpeak(), cow.GetEat());
+            Console.ReadLine();
 
 
-
-
-
-
-
-
-
-
-                //Console.WriteLine(cki.Key.ToString());
-
-                //while (cki.Key != ConsoleKey.NoName);
-            }   //Console.WriteLine("a {0} makes a {0} noise");
 
         }       
     }
